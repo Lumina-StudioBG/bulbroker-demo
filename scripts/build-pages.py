@@ -7,7 +7,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
 
 root = Path(__file__).resolve().parents[1]
-owner, repository = os.environ.get('GITHUB_REPOSITORY', 'alexandermarkovdev/bulbroker-demo').split('/')[-2:]
+owner, repository = os.environ.get('GITHUB_REPOSITORY', 'Lumina-StudioBG/bulbroker-demo').split('/')[-2:]
 base = '/' + repository + '/'
 output = root / '_site'
 output.mkdir(exist_ok=True)
